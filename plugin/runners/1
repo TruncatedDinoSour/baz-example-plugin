@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "Hello world, what's your name?"
+read -r -p '>> ' name
+echo "Nice you meet you, ${name:-$(whoami)}"
+sleep 1
