@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+set -e
+
+echo " [EXAMPLE] Your baz config: $BAZ_CONF"
